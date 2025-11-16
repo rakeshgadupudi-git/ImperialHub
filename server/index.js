@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB connection
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://23bcs037:2PNRnxkGdUPdjv4r@cluster0.q5kwrtg.mongodb.net/imperial-hub?retryWrites=true&w=majority';
+const MONGODB_URI = process.env.MONGODB_URI 
 
 mongoose.connect(MONGODB_URI)
 .then(() => {
