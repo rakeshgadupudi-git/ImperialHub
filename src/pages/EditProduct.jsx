@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import './EditProduct.css';
-
+//fectching the details of product
 export default function EditProduct({ user }) {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -287,4 +287,5 @@ export default function EditProduct({ user }) {
     </div>
   );
 }
+
 
